@@ -15,6 +15,10 @@ Simulating the performance of different modulation schemes, BPSK, QPSK, FSK, QAM
 
 ![BPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
+* BER Performance
+
+![BPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK%20BER%20Performance.png)
+
 ### QuadriPhase Shift Keying Modulation (QPSK)
 * Modulation Scheme
 
@@ -28,6 +32,10 @@ Simulating the performance of different modulation schemes, BPSK, QPSK, FSK, QAM
 
 ![QPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
+* BER Performance
+
+![QPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK%20BER%20Performance.png)
+
 ### Frequency Shift Keying Modulation (FSK)
 * Modulation Scheme
 
@@ -40,6 +48,10 @@ Simulating the performance of different modulation schemes, BPSK, QPSK, FSK, QAM
 * Scatter Plot After Noise
 
 ![FSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
+
+* BER Performance
+
+![FSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK%20BER%20Performance.png)
 
 ### Quadrature amplitude modulation (QAM)
 #### QAM16
@@ -55,6 +67,11 @@ Simulating the performance of different modulation schemes, BPSK, QPSK, FSK, QAM
 
 ![QAM16 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
+
+* BER Performance
+
+![QAM16 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16%20BER%20Performance.png)
+
 #### QAM64
 * Modulation Scheme
 
@@ -67,3 +84,7 @@ Simulating the performance of different modulation schemes, BPSK, QPSK, FSK, QAM
 * Scatter Plot After Noise
 
 ![QAM64 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64%20Scatter%20Plot%20After%20Noise.png?raw=true)
+
+* BER Performance
+
+![QAM64 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64%20BER%20Performance.png)
