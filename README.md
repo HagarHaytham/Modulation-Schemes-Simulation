@@ -22,11 +22,12 @@ Set the simulation time to 100
 # To obtain The BER Performance Figure for any scheme
 * In matlab command Window run "bartool" command
 * To get the theoretical curve set this parameters as shown and then plot
-![]()
+![](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/general/BERTheoretical.PNG)
 
 * Then navigate to monte carlo and set the parameters as shown then run
-![]()
-    
+![](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/general/ber.PNG)
+
+
  
 ### Binary Phase Shift Keying Modulation (BPSK)
 Binary phase shift keying is a modulation scheme that can transfer one bit per symbol. So we use two phase offsets (one for logic high, one for logic low). We want the maximum seperation between the phase options, which in this case is 180°.
