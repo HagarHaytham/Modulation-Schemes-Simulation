@@ -131,5 +131,114 @@ Set the simulation time to 100
 ![QAM64 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64%20BER%20Performance.png)
 
 
-#Raised Cosine Simulation
+# Raised Cosine Simulation
+
+### Binary Phase Shift Keying Modulation (BPSK) with raised cosine
+* Modulation Scheme
+
+![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Raised%20Cosine.PNG)
+* Configuration
+    * Random Integer Generator
+        * Set size: 2
+
+
+* Scatter Plot Before Noise
+
+![BPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
+
+* Scatter Plot After Noise
+
+![BPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
+
+* BER Performance
+
+![BPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20BER%20Performance%20Raised%20Cosine.png)
+
+### QuadriPhase Shift Keying Modulation (QPSK) with raised cosine
+* Modulation Scheme
+
+![QPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Raised%20Cosine.PNG?raw=true)
+
+* Configuration
+    * Random Integer Generator
+        * Set size: 4
+        
+* Scatter Plot Before Noise
+
+![QPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
+
+* Scatter Plot After Noise
+
+![QPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
+
+* BER Performance
+
+![QPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20BER%20Performance%20Raised%20Cosine.png)
+
+### Frequency Shift Keying Modulation (FSK) with raised cosine
+* Modulation Scheme
+
+![FSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Raised%20Cosine.PNG?raw=true)
+
+* Configuration
+    * Random Integer Generator
+        * Set size: 8
+        
+* Scatter Plot Before Noise
+
+![FSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
+
+* Scatter Plot After Noise
+
+![FSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
+
+* BER Performance
+
+![FSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20BER%20Performance%20Raised%20Cosine.png)
+
+### Quadrature amplitude modulation (QAM) with raised cosine
+#### QAM16 with raised cosine
+* Modulation Scheme
+
+![QAM16](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Raised%20Cosine.PNG?raw=true)
+
+* Configuration
+    * Random Integer Generator
+        * Set size: 16 
+        
+* Scatter Plot Before Noise
+
+![QAM16 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
+
+* Scatter Plot After Noise
+
+![QAM16 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
+
+
+* BER Performance
+
+![QAM16 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20BER%20Performance%20Raised%20Cosine.png)
+
+#### QAM64 with raised cosine
+* Modulation Scheme
+
+![QAM64](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Raised%20Cosine.PNG?raw=true)
+
+* Configuration
+    * Random Integer Generator
+        * Set size: 64
+        
+* Scatter Plot Before Noise
+
+![QAM64 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
+
+* Scatter Plot After Noise
+
+![QAM64 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
+
+* BER Performance
+
+![QAM64 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20BER%20Performance%20Raised%20Cosine.png)
+
+
 
