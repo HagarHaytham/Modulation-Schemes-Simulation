@@ -33,7 +33,7 @@ A *Constellation Diagram* is put at the transmitter and another one is put at th
 
 The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
 
-Also adding a sink #To Workspace# to obtain the BER performance figure.
+Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK.PNG?raw=true)
 
@@ -67,7 +67,7 @@ A *Constellation Diagram* is put at the transmitter and another one is put at th
 
 The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
 
-Also adding a sink #To Workspace# to obtain the BER performance figure.
+Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK.PNG?raw=true)
 
@@ -98,7 +98,7 @@ A *Constellation Diagram* is put at the transmitter and another one is put at th
 
 The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
 
-Also adding a sink #To Workspace# to obtain the BER performance figure.
+Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![FSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK.PNG?raw=true)
 
@@ -130,7 +130,7 @@ A *Constellation Diagram* is put at the transmitter and another one is put at th
 
 The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
 
-Also adding a sink #To Workspace# to obtain the BER performance figure.
+Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QAM16](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16.PNG?raw=true)
 
@@ -163,7 +163,7 @@ A *Constellation Diagram* is put at the transmitter and another one is put at th
 
 The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
 
-Also adding a sink #To Workspace# to obtain the BER performance figure.
+Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QAM64](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64.PNG?raw=true)
 
