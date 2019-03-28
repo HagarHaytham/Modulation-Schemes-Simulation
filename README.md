@@ -19,6 +19,14 @@ Set the simulation time to 100
     * Target number of errors: 100
     * Maximum number of symbols: 1e4
     
+# To obtain The BER Performance Figure for any scheme
+* In matlab command Window run "bartool" command
+* To get the theoretical curve set this parameters as shown and then plot
+![]()
+
+* Then navigate to monte carlo and set the parameters as shown then run
+![]()
+    
  
 ### Binary Phase Shift Keying Modulation (BPSK)
 Binary phase shift keying is a modulation scheme that can transfer one bit per symbol. So we use two phase offsets (one for logic high, one for logic low). We want the maximum seperation between the phase options, which in this case is 180°.
@@ -44,11 +52,11 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
         * Number of bits per symbol: 1
  
 
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![BPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK%20Scatter%20Plot%20Before%20Noise.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![BPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
@@ -79,11 +87,11 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
     * AWGN Channel
         * Number of bits per symbol: 2 
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK%20Scatter%20Plot%20Before%20Noise.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
@@ -116,11 +124,11 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
     * M-FSK Demodulation Baseband
         * M-ary Number: 8
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![FSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK%20Scatter%20Plot%20Before%20Noise.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![FSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
@@ -129,6 +137,8 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 ![FSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK%20BER%20Performance.png)
 
 ### Quadrature amplitude modulation (QAM)
+Quadrature Amplitude Modulation, QAM is a signal in which two carriers shifted in phase by 90 degrees (sine and cosine) are modulated and combined
+
 #### QAM16
 * Modulation Schematic
 
@@ -151,14 +161,16 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
         * Number of bits per symbol: 4
     * Rectangular QAM Modulator Baseband
         * M-ary Number: 16
+        * Normalization method: Average Power
     * Rectangular QAM Demodulator Baseband
         * M-ary Number: 16
+        * Normalization method: Average Power
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QAM16 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16%20Scatter%20Plot%20Before%20Noise.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QAM16 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
@@ -190,14 +202,16 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
         * Number of bits per symbol: 6
     * Rectangular QAM Modulator Baseband
         * M-ary Number: 16
+        * Normalization method: Average Power
     * Rectangular QAM Demodulator Baseband
         * M-ary Number: 16
+        * Normalization method: Average Power
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QAM64 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64%20Scatter%20Plot%20Before%20Noise.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QAM64 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64%20Scatter%20Plot%20After%20Noise.png?raw=true)
 
@@ -208,20 +222,24 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 # Raised Cosine Simulation
 
+## Configuigurations of each Scheme is same as before added to the following
+ * Raised Cosine Transmit Filter
+      * Filter span in symbols : 8
+ * Raised Cosine Receive Filter
+      * Filter span in symbols : 8
+ * Error Rate Calculation
+      * Receive delay: 8
+
 ### Binary Phase Shift Keying Modulation (BPSK) with raised cosine
 * Modulation Schematic
 
 ![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Raised%20Cosine.PNG)
-* Configuration
-    * Random Integer Generator
-        * Set size: 2
 
-
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![BPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![BPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
 
@@ -235,15 +253,11 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Raised%20Cosine.PNG?raw=true)
 
-* Configuration
-    * Random Integer Generator
-        * Set size: 4
-        
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QPSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QPSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
 
@@ -257,15 +271,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![FSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Raised%20Cosine.PNG?raw=true)
 
-* Configuration
-    * Random Integer Generator
-        * Set size: 8
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![FSK Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![FSK Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
 
@@ -280,15 +291,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QAM16](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Raised%20Cosine.PNG?raw=true)
 
-* Configuration
-    * Random Integer Generator
-        * Set size: 16 
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QAM16 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QAM16 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
 
@@ -303,15 +311,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 
 ![QAM64](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Raised%20Cosine.PNG?raw=true)
 
-* Configuration
-    * Random Integer Generator
-        * Set size: 64
         
-* Scatter Plot Before Noise
+* Scatter Plot Before Noise at 10 dB
 
 ![QAM64 Scatter Plot Before Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Scatter%20Plot%20Before%20Noise%20Raised%20Cosine.png?raw=true)
 
-* Scatter Plot After Noise
+* Scatter Plot After Noise at 10 dB
 
 ![QAM64 Scatter Plot After Noise](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Scatter%20Plot%20After%20Noise%20Raised%20Cosine.png?raw=true)
 
