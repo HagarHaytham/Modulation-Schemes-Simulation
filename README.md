@@ -35,7 +35,7 @@ The *Display* block is added to display three values. The first value is the BER
 
 Also adding a sink *To Workspace* to obtain the BER performance figure.
 
-![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK.PNG?raw=true)
+![BPSK](./Figures/BPSK.png)
 
 * Configuration
     * Random Integer Generator
