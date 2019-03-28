@@ -40,7 +40,9 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 * Configuration
     * Random Integer Generator
         * Set size: 2
-
+    * AWGN Channel
+        * Number of bits per symbol: 1
+ 
 
 * Scatter Plot Before Noise
 
@@ -74,6 +76,8 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 * Configuration
     * Random Integer Generator
         * Set size: 4
+    * AWGN Channel
+        * Number of bits per symbol: 2 
         
 * Scatter Plot Before Noise
 
@@ -105,6 +109,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 * Configuration
     * Random Integer Generator
         * Set size: 8
+    * AWGN Channel
+        * Number of bits per symbol: 3
+    * M-FSK Modulation Baseband 
+        * M-ary Number: 8
+    * M-FSK Demodulation Baseband
+        * M-ary Number: 8
         
 * Scatter Plot Before Noise
 
@@ -137,6 +147,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 * Configuration
     * Random Integer Generator
         * Set size: 16 
+    * AWGN Channel
+        * Number of bits per symbol: 4
+    * Rectangular QAM Modulator Baseband
+        * M-ary Number: 16
+    * Rectangular QAM Demodulator Baseband
+        * M-ary Number: 16
         
 * Scatter Plot Before Noise
 
@@ -170,6 +186,12 @@ Also adding a sink *To Workspace* to obtain the BER performance figure.
 * Configuration
     * Random Integer Generator
         * Set size: 64
+    * AWGN Channel
+        * Number of bits per symbol: 6
+    * Rectangular QAM Modulator Baseband
+        * M-ary Number: 16
+    * Rectangular QAM Demodulator Baseband
+        * M-ary Number: 16
         
 * Scatter Plot Before Noise
 
