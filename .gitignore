@@ -1,1 +1,4 @@
 /slprj/*
+/Schemes/*.slxc
+/Raised Cosine Schemes/*.slxc
+*.slxc
