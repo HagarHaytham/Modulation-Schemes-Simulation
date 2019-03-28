@@ -20,10 +20,20 @@ Set the simulation time to 100
     * Maximum number of symbols: 1e4
     
  
-
-
 ### Binary Phase Shift Keying Modulation (BPSK)
-* Modulation Scheme
+Binary phase shift keying is a modulation scheme that can transfer one bit per symbol. So we use two phase offsets (one for logic high, one for logic low). We want the maximum seperation between the phase options, which in this case is 180°.
+
+* Modulation Schematic
+
+The *Random Integer generator* generates random uniformaly distributed integers from range [0,M-1] , M is set to 2 So here it generates 0,1.
+These bits enter the *BPSK Modulator* and then passes through the *AWGN channel*. At the other side the *BPSK Demodulator* takes the transmitted bits and demodulates them.
+To calculate the error , An *Error Rate Calculation* block is added and its inputs are the bits comming out of the *Random Integer generator* and the bits from the *BPSK Demodulator* 
+
+A *Constellation Diagram* is put at the transmitter and another one is put at the reciever to obtain the scatter plots.
+
+The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
+
+Also adding a sink #To Workspace# to obtain the BER performance figure.
 
 ![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK.PNG?raw=true)
 
@@ -45,7 +55,19 @@ Set the simulation time to 100
 ![BPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/BPSK%20BER%20Performance.png)
 
 ### QuadriPhase Shift Keying Modulation (QPSK)
-* Modulation Scheme
+QPSK is a modulation scheme that allows one symbol to transfer two bits of data. There are four possible two-bit numbers (00, 01, 10, 11), and consequently we need four phase offsets. We want maximum separation between the phase options, which in this case is 90°.
+
+* Modulation Schematic
+
+The *Random Integer generator* generates random uniformaly distributed integers from range [0,M-1] , M is set to 4 So here it generates (00,01,10,11)
+These bits enter the *QPSK Modulator* and then passes through the *AWGN channel*. At the other side the *QPSK Demodulator* takes the transmitted bits and demodulates them.
+To calculate the error , An *Error Rate Calculation* block is added and its inputs are the bits comming out of the *Random Integer generator* and the bits from the *QPSK Demodulator* 
+
+A *Constellation Diagram* is put at the transmitter and another one is put at the reciever to obtain the scatter plots.
+
+The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
+
+Also adding a sink #To Workspace# to obtain the BER performance figure.
 
 ![QPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK.PNG?raw=true)
 
@@ -66,7 +88,17 @@ Set the simulation time to 100
 ![QPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QPSK%20BER%20Performance.png)
 
 ### Frequency Shift Keying Modulation (FSK)
-* Modulation Scheme
+* Modulation Schematic
+
+The *Random Integer generator* generates random uniformaly distributed integers from range [0,M-1] , M is set to 8.
+These bits enter the *FSK Modulator* and then passes through the *AWGN channel*. At the other side the *FSK Demodulator* takes the transmitted bits and demodulates them.
+To calculate the error , An *Error Rate Calculation* block is added and its inputs are the bits comming out of the *Random Integer generator* and the bits from the *FSK Demodulator* 
+
+A *Constellation Diagram* is put at the transmitter and another one is put at the reciever to obtain the scatter plots.
+
+The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
+
+Also adding a sink #To Workspace# to obtain the BER performance figure.
 
 ![FSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/FSK.PNG?raw=true)
 
@@ -88,7 +120,17 @@ Set the simulation time to 100
 
 ### Quadrature amplitude modulation (QAM)
 #### QAM16
-* Modulation Scheme
+* Modulation Schematic
+
+The *Random Integer generator* generates random uniformaly distributed integers from range [0,M-1] , M is set to 16.
+These bits enter the *QAM Modulator* and then passes through the *AWGN channel*. At the other side the *QAM Demodulator* takes the transmitted bits and demodulates them.
+To calculate the error , An *Error Rate Calculation* block is added and its inputs are the bits comming out of the *Random Integer generator* and the bits from the *QAM Demodulator* 
+
+A *Constellation Diagram* is put at the transmitter and another one is put at the reciever to obtain the scatter plots.
+
+The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
+
+Also adding a sink #To Workspace# to obtain the BER performance figure.
 
 ![QAM16](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16.PNG?raw=true)
 
@@ -110,7 +152,18 @@ Set the simulation time to 100
 ![QAM16 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM16%20BER%20Performance.png)
 
 #### QAM64
-* Modulation Scheme
+
+* Modulation Schematic
+
+The *Random Integer generator* generates random uniformaly distributed integers from range [0,M-1] , M is set to 64.
+These bits enter the *QAM Modulator* and then passes through the *AWGN channel*. At the other side the *QAM Demodulator* takes the transmitted bits and demodulates them.
+To calculate the error , An *Error Rate Calculation* block is added and its inputs are the bits comming out of the *Random Integer generator* and the bits from the *QAM Demodulator* 
+
+A *Constellation Diagram* is put at the transmitter and another one is put at the reciever to obtain the scatter plots.
+
+The *Display* block is added to display three values. The first value is the BER, the second value is the number of incorrect bits, and the third value is the total number of bits received.
+
+Also adding a sink #To Workspace# to obtain the BER performance figure.
 
 ![QAM64](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Figures/QAM64.PNG?raw=true)
 
@@ -134,7 +187,7 @@ Set the simulation time to 100
 # Raised Cosine Simulation
 
 ### Binary Phase Shift Keying Modulation (BPSK) with raised cosine
-* Modulation Scheme
+* Modulation Schematic
 
 ![BPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20Raised%20Cosine.PNG)
 * Configuration
@@ -155,7 +208,8 @@ Set the simulation time to 100
 ![BPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/BPSK%20BER%20Performance%20Raised%20Cosine.png)
 
 ### QuadriPhase Shift Keying Modulation (QPSK) with raised cosine
-* Modulation Scheme
+
+* Modulation Schematic
 
 ![QPSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20Raised%20Cosine.PNG?raw=true)
 
@@ -176,7 +230,8 @@ Set the simulation time to 100
 ![QPSK BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QPSK%20BER%20Performance%20Raised%20Cosine.png)
 
 ### Frequency Shift Keying Modulation (FSK) with raised cosine
-* Modulation Scheme
+
+* Modulation Schematic
 
 ![FSK](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/FSK%20Raised%20Cosine.PNG?raw=true)
 
@@ -198,7 +253,8 @@ Set the simulation time to 100
 
 ### Quadrature amplitude modulation (QAM) with raised cosine
 #### QAM16 with raised cosine
-* Modulation Scheme
+
+* Modulation Schematic
 
 ![QAM16](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20Raised%20Cosine.PNG?raw=true)
 
@@ -220,7 +276,8 @@ Set the simulation time to 100
 ![QAM16 BER Performance](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM16%20BER%20Performance%20Raised%20Cosine.png)
 
 #### QAM64 with raised cosine
-* Modulation Scheme
+
+* Modulation Schematic
 
 ![QAM64](https://github.com/HagarHaytham/Modulation-Schemes-Simulation/blob/master/Raised%20Cosine%20Figures/QAM64%20Raised%20Cosine.PNG?raw=true)
 
